@@ -990,12 +990,12 @@ A: Docs are generated locally, never uploaded anywhere.
 
 ## 💬 Support & Community
 
-| Channel | Purpose |
-|---------|---------|
+| Channel | Link |
+|---------|------|
 | **GitHub Issues** | [Report bugs & request features](https://github.com/ludodelot/pbip-doc/issues) |
 | **Discussions** | [Ask questions & share ideas](https://github.com/ludodelot/pbip-doc/discussions) |
+| **LinkedIn** | [Connect with the creator](https://www.linkedin.com/in/delot/) |
 | **Email** | ludovicdelot99@gmail.com |
-| **Twitter/X** | Share your success stories! |
 
 ---
 
