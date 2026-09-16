@@ -1,162 +1,211 @@
 <div align="center">
 
 # 📊 PBIP Documentation Skill
-## Transform Power BI Into Self-Documenting, Self-Maintaining Systems
 
-> **One command. Complete lineage. Interactive docs. Impact analysis. GitHub-ready.**
+<div style="margin: 20px 0; padding: 30px; background: linear-gradient(135deg, #0078d4 0%, #00bcf2 100%); border-radius: 10px; color: white;">
 
-[![Release](https://img.shields.io/github/v/release/ludodelot/pbip-doc?style=for-the-badge&color=0078d4&labelColor=1f1f1f)](https://github.com/ludodelot/pbip-doc/releases)
-[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge&labelColor=1f1f1f)](LICENSE)
-[![Downloads](https://img.shields.io/npm/dm/pbip-documentation-skill?style=for-the-badge&labelColor=1f1f1f)](https://www.npmjs.com/package/pbip-documentation-skill)
-[![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black&labelColor=1f1f1f)](https://powerbi.microsoft.com)
+## 🚀 Transform Power BI Into Self-Documenting Systems
 
----
+**Automatic Documentation • Complete Lineage • Interactive Visualizations • CI/CD Ready**
 
-### ⚡ **The Problem You're Facing**
+</div>
 
-```
-❌ Power BI projects lack documentation
-❌ Tribal knowledge isn't scalable
-❌ Measuring impact = hours of investigation
-❌ New engineers need context, not guesses
-❌ Changes break things unexpectedly
-```
-
-### ✨ **The Solution**
-
-```
-✅ Automatic documentation from TMDL/PBIR
-✅ Full data lineage (SQL → Measures → Visuals)
-✅ Impact analysis (1 command, 30 seconds)
-✅ Team onboarding in hours, not weeks
-✅ Safe changes with confidence
-```
+[![Release v20260916](https://img.shields.io/badge/Release-v20260916-0078d4?style=flat-square&logo=github)](https://github.com/ludodelot/pbip-doc/releases)
+[![MIT License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+[![npm Downloads](https://img.shields.io/npm/dm/pbip-documentation-skill?style=flat-square&color=cb3837)](https://www.npmjs.com/package/pbip-documentation-skill)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178c6?style=flat-square&logo=typescript)](https://www.typescriptlang.org)
+[![React 18](https://img.shields.io/badge/React-18.3-61dafb?style=flat-square&logo=react)](https://react.dev)
+[![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com)
 
 ---
 
-## 🎯 What It Does
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 30px 0;">
 
-### 🚀 **The Complete Workflow**
+<div style="padding: 20px; background: #f5f5f5; border-radius: 8px; border-left: 4px solid #e74c3c;">
 
-```
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃  1️⃣  DROP YOUR PBIP                                   ┃
-┃     (*.tmdl + *.pbir files)                            ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-                          ⬇️
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃  2️⃣  INSTANT ANALYSIS                                 ┃
-┃     Parse → Build Graph → Analyze Quality             ┃
-┃     ⏱️  30 seconds for medium projects                ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-                          ⬇️
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃  3️⃣  GET EVERYTHING AUTOMATICALLY                      ┃
-┃     📊 ERDs    📈 DAX Trees    🗺️  Lineage Maps      ┃
-┃     📋 Docs    📟 Quality Reports    🎯 Impact Data   ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-                          ⬇️
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃  4️⃣  DEPLOY INSTANTLY                                  ┃
-┃     GitHub Pages → Share with Team                     ┃
-┃     (Optional: Auto-sync on every push)                ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-```
+### ❌ **The Real Problem**
 
-### ⚡ **Key Benefits Matrix**
+- No documentation = tribal knowledge
+- Impact analysis = 30+ minutes
+- Changes break things unexpectedly  
+- New engineers = 2-3 week ramp-up
+- Compliance audits = nightmare
 
-| Feature | Before | After |
-|---------|--------|-------|
-| **Documentation** | Manual 😫 | Automatic ⚡ |
-| **Impact Analysis** | 30 minutes 🐢 | 30 seconds ⚡ |
-| **Data Lineage** | Guessing 🤔 | Proven 100% ✅ |
-| **Onboarding Time** | Weeks 📅 | Hours 🚀 |
-| **Measure Dependencies** | Ask John 😅 | Click Interactive 📊 |
-| **Quality Checks** | Manual Review | Automatic Linting |
-| **Change Safety** | Risky ⚠️ | Confident ✨ |
-| **Compliance Ready** | No | Yes ✅ |
+</div>
+
+<div style="padding: 20px; background: #f5f5f5; border-radius: 8px; border-left: 4px solid #27ae60;">
+
+### ✅ **Our Solution**
+
+- Automatic docs from TMDL/PBIR
+- Full lineage in 30 seconds
+- Impact analysis before merge
+- Team ready in 1 day
+- Compliance-ready exports
+
+</div>
+
+</div>
 
 ---
 
-## 🔄 How It Works Under the Hood
+## ⚡ What It Does
 
-### **The 5-Layer Architecture**
+### 🔄 **The Complete Workflow**
+
+```mermaid
+graph TB
+    A["📁 Your PBIP Project<br/>tmdl + pbir files"] -->|Upload| B["🔍 Instant Analysis<br/>30 seconds"]
+    B -->|Parse| C["📊 Knowledge Graph<br/>Complete Lineage"]
+    C -->|Generate| D["✨ Interactive Docs<br/>8+ Output Formats"]
+    D -->|Deploy| E["🌐 GitHub Pages<br/>Auto-Updated"]
+    
+    style A fill:#0078d4,stroke:#333,stroke-width:2px,color:#fff
+    style B fill:#00bcf2,stroke:#333,stroke-width:2px,color:#fff
+    style C fill:#00a4ef,stroke:#333,stroke-width:2px,color:#fff
+    style D fill:#0078d4,stroke:#333,stroke-width:2px,color:#fff
+    style E fill:#106ebe,stroke:#333,stroke-width:2px,color:#fff
+```
+
+### 📊 **Capability Matrix**
+
+<table>
+<tr>
+<td width="50%">
+
+**📈 Input Support**
+- ✅ TMDL (modern)
+- ✅ PBIR (modern)
+- ✅ Power Query (M)
+- ✅ DAX expressions
+- ✅ Legacy formats
+
+</td>
+<td width="50%">
+
+**📤 Output Formats**
+- 📘 Markdown docs
+- 📊 Mermaid diagrams
+- 🌳 React Flow trees
+- 🗺️ WebGL lineage
+- 📈 ECharts dashboards
+- 📦 JSON exports
+- 🌐 HTML sites
+
+</td>
+</tr>
+</table>
+
+### 🎯 **Before vs After: The Real Impact**
 
 ```
-INPUT LAYER 📥
-    │
-    ├── 📄 TMDL Files (Tables, Columns, Measures)
-    ├── 📊 PBIR Files (Pages, Visuals, Projections)
-    └── 📜 Power Query (M Expressions)
-    │
-    ⬇️
-PARSING LAYER 🔍
-    │
-    ├── 🔬 TMDL Lexer    (Semantic model structure)
-    ├── 🎯 PBIR Parser   (Report layer + bindings)
-    ├── 🧮 DAX Analyzer  (Measure dependencies)
-    ├── 🌊 Power Query   (Data transformation lineage)
-    └── ⚙️ Syntax Check  (Validation & error detection)
-    │
-    ⬇️
-ANALYSIS LAYER 🧠
-    │
-    ├── 📊 Build Knowledge Graph (11 entity types)
-    ├── 🔗 Full Lineage Tracking (SQL → Measures → Visuals)
-    ├── 🎯 Complexity Scoring (LOW/MEDIUM/HIGH/CRITICAL)
-    ├── ⚠️ Quality Linting (Orphans, cycles, dead code)
-    └── 💥 Impact Radius Calculation (Blast radius on change)
-    │
-    ⬇️
-GENERATION LAYER ✨
-    │
-    ├── 📘 Markdown Documentation (Complete specs)
-    ├── 📊 Mermaid ERDs (Entity relationships)
-    ├── 🌳 React Flow DAX Trees (Measure dependencies)
-    ├── 🗺️ WebGL Lineage Graphs (10k+ node networks)
-    ├── 📈 ECharts Dashboards (Quality + health metrics)
-    └── 📑 JSON Reports (Machine readable)
-    │
-    ⬇️
-OUTPUT LAYER 🎁
-    │
-    └── 🌐 GitHub Pages (Auto-deploy + hosting)
-        📧 PR Comments (Impact notifications)
-        📦 Static Site (Team accessible)
+┌────────────────────────────────────────────────────────────┐
+│ METRIC              │ BEFORE    │ AFTER    │ IMPROVEMENT  │
+├────────────────────────────────────────────────────────────┤
+│ Documentation       │ Manual ❌  │ Auto ✅  │ -100% time   │
+│ Impact Analysis     │ 30 min ⏱️  │ 30 sec ⚡│ -98% faster  │
+│ Lineage Accuracy    │ 70% 🤔    │ 100% ✅  │ +30% precise │
+│ Onboarding Time     │ 2 weeks 📅 │ 1 day 🚀 │ -93% time    │
+│ Query Time          │ 30+ min 🔍 │ 2 min ⚡ │ -93% faster  │
+│ Compliance Ready    │ No ❌      │ Yes ✅  │ Enterprise   │
+│ Team Independence   │ 0% 👤     │ 100% 👥 │ Self-serve   │
+└────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🏗️ Architecture Deep Dive
+
+### **5-Layer Processing Pipeline**
+
+```mermaid
+graph TD
+    subgraph Input["📥 INPUT LAYER"]
+        I1["📄 TMDL Files"]
+        I2["📊 PBIR Files"]
+        I3["📜 Power Query"]
+    end
+    
+    subgraph Parse["🔍 PARSING LAYER"]
+        P1["TMDL Lexer"]
+        P2["PBIR Parser"]
+        P3["DAX Analyzer"]
+        P4["PQ Lineage"]
+    end
+    
+    subgraph Analyze["🧠 ANALYSIS LAYER"]
+        A1["Knowledge Graph"]
+        A2["Lineage Engine"]
+        A3["Quality Linter"]
+        A4["Impact Calculator"]
+    end
+    
+    subgraph Generate["✨ GENERATION LAYER"]
+        G1["Markdown Docs"]
+        G2["Mermaid ERDs"]
+        G3["React Flow"]
+        G4["ECharts"]
+    end
+    
+    subgraph Output["🎁 OUTPUT LAYER"]
+        O1["GitHub Pages"]
+        O2["JSON Export"]
+        O3["HTML Site"]
+    end
+    
+    Input --> Parse
+    Parse --> Analyze
+    Analyze --> Generate
+    Generate --> Output
+    
+    classDef input fill:#0078d4,stroke:#333,stroke-width:2px,color:#fff
+    classDef parse fill:#00bcf2,stroke:#333,stroke-width:2px,color:#fff
+    classDef analyze fill:#00a4ef,stroke:#333,stroke-width:2px,color:#fff
+    classDef gen fill:#0078d4,stroke:#333,stroke-width:2px,color:#fff
+    classDef out fill:#106ebe,stroke:#333,stroke-width:2px,color:#fff
+    
+    class Input input
+    class Parse parse
+    class Analyze analyze
+    class Generate gen
+    class Output out
 ```
 
 ### **What Gets Analyzed**
 
-<table align="center">
+<table>
 <tr>
 <td width="33%">
 
-**🔍 TMDL Parsing**
-- Tables & columns
+#### 🔍 **TMDL Parsing**
+- Tables & Columns
 - Measures & KPIs
 - Hierarchies
-- Data types
-- Descriptions
+- Relationships
+- Partitions
+- Roles & RLS
 
 </td>
 <td width="33%">
 
-**📊 PBIR Analysis**
-- Report pages
-- Visual types
-- Field bindings
-- Slicers
-- Filters
+#### 📊 **PBIR Analysis**
+- Report Pages
+- Visual Types
+- Field Bindings
+- Filters & Slicers
+- Interactions
+- Drill-through
 
 </td>
 <td width="33%">
 
-**🧮 DAX Complexity**
-- Function calls
-- Nested logic
-- Time intelligence
-- Iterators
-- Performance impact
+#### 🧮 **DAX Intelligence**
+- Function Dependencies
+- Complexity Scoring
+- Time Intelligence
+- Iterator Patterns
+- Circular Refs
+- Performance Impact
 
 </td>
 </tr>
@@ -164,84 +213,60 @@ OUTPUT LAYER 🎁
 
 ---
 
-## 💡 Real-World Example: The Power Difference
+## 🎯 Real-World Example
 
-### 🔴 **BEFORE: The Painful Reality**
+### **Scenario: "What depends on the Customer table?"**
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+
+<div style="padding: 20px; background: #ffe6e6; border-radius: 8px; border-left: 4px solid #e74c3c;">
+
+#### 🔴 **WITHOUT the Skill**
 
 ```
-🗣️  Question: "What measures depend on Customer table?"
-
-😫 Answer Path:
-   │
-   ├─ Look through 50+ .tmdl files
-   ├─ Search for "Customer" references
-   ├─ Read DAX expressions manually
-   ├─ Find semantic relationships
-   ├─ Document (maybe)
-   ├─ Ping John: "Are you sure this is right?"
-   └─ John doesn't remember either 🤷
-   
-📊 Output: "Um, probably Revenue and Customer Acquisition?"
-⏱️  Time Spent: 30-45 minutes
-📉 Accuracy: 70% (missing edge cases)
-❌ Maintainability: ZERO (tribal knowledge)
+Time:     30-45 minutes ⏱️
+Accuracy: ~70% (guessing)
+Method:   Ask John (who doesn't remember)
+Output:   "Um... Revenue & Customer Acq?"
+Risk:     HIGH (incomplete analysis)
 ```
 
-### 🟢 **AFTER: The Smart Way**
+**What actually happens:**
+1. Search through 50+ files
+2. Read DAX expressions manually
+3. Trace relationships by hand
+4. Hope you didn't miss anything
+5. Merge + breaks happen anyway
+
+</div>
+
+<div style="padding: 20px; background: #e6ffe6; border-radius: 8px; border-left: 4px solid #27ae60;">
+
+#### 🟢 **WITH the Skill**
 
 ```bash
 $ pbip-doc analyze ./my-pbip
 ```
 
-```
-═══════════════════════════════════════════════════════════════
-PBIP DOCUMENTATION ANALYSIS COMPLETE ✅
-═══════════════════════════════════════════════════════════════
+**Instant Results:**
+- 📊 Tables: 12
+- 📈 Measures: 145
+- 🎯 Visuals: 234
+- ✅ Quality: 92%
 
-📊 PROJECT METRICS
-├─ Tables: 12
-├─ Columns: 127
-├─ Measures: 145
-├─ Visuals: 234
-├─ Reports: 3
-└─ Total: 521 entities
+**Customer Table Analysis:**
+- Direct deps: 18 measures
+- Indirect deps: 42 measures
+- Affected visuals: 87
+- Impact: CRITICAL
 
-🎯 CUSTOMER TABLE IMPACT
-├─ Direct Dependencies: 18 measures
-├─ Indirect Dependencies: 42 measures
-├─ Affected Visuals: 87 (24% of total)
-├─ Affected Reports: 3 (all)
-└─ Impact Severity: 🔴 CRITICAL
+</div>
 
-📈 QUALITY REPORT
-├─ Orphaned Measures: 0 ✅
-├─ Circular Dependencies: 0 ✅
-├─ Unused Columns: 0 ✅
-├─ Avg DAX Complexity: MEDIUM
-├─ Overly Complex Measures: 3 ⚠️
-└─ Overall Health: 92% 🟢
+</div>
 
-📁 GENERATED OUTPUTS
-├─ ✅ Interactive ERD (relationships)
-├─ ✅ DAX Dependency Trees (React Flow)
-├─ ✅ Lineage Map (all sources to visuals)
-├─ ✅ Measure Catalog (with complexity)
-├─ ✅ Quality Report (JSON + Markdown)
-└─ ✅ Health Dashboard (ECharts)
-
-🚀 NEXT STEPS
-├─ Open docs/index.html in browser
-├─ Share with team via GitHub Pages
-└─ Auto-update on every git push
-```
-
-```
-📊 Result: INSTANT transparency
-⏱️  Time: 30 seconds (vs 45 minutes)
-🎯 Accuracy: 100% (no guessing)
-✅ Confidence: Total (everything documented)
-📈 Scalability: Automatic (regenerates on change)
-```
+**⏱️ Time:** 30 seconds (vs 45 minutes) = **98% faster**  
+**🎯 Accuracy:** 100% (not guessing) = **30% more precise**  
+**✅ Confidence:** Documented proof = **Risk eliminated**  
 
 ---
 
@@ -575,47 +600,107 @@ Result: Every measure is self-documenting 📚
 
 ---
 
-## 📦 What Gets Generated Automatically
+## 📦 What Gets Generated
 
-### **Documentation Outputs**
+### **Output Formats** (Choose what you need)
 
-| Output Type | Format | What You Get |
-|------------|--------|-------------|
-| **Semantic Model Docs** | Markdown | Complete table & column reference |
-| **Measure Catalog** | Markdown + DAX | Every measure with complexity scores |
-| **Relationship Map** | Markdown + JSON | All relationships documented |
-| **Entity Diagram** | Mermaid ERD | Visual entity relationship diagram |
-| **DAX Trees** | React Flow | Interactive measure dependencies |
-| **Lineage Graphs** | WebGL 3D | Complete SQL→Measures→Visuals path |
-| **Quality Report** | HTML + JSON | Orphans, cycles, complexity analysis |
-| **Health Dashboard** | ECharts | Real-time model health metrics |
-| **Impact Diffs** | JSON + Markdown | Semantic changes between versions |
-| **GitHub Pages Site** | Static HTML | Fully interactive documentation site |
+```mermaid
+graph LR
+    Gen["pbip-doc generate"] -->|Pure Markdown| MD["📘 .md files<br/>100% text-based"]
+    Gen -->|Interactive HTML| HTML["🌐 HTML site<br/>React + ECharts"]
+    Gen -->|Data Export| JSON["📊 JSON export<br/>Machine readable"]
+    Gen -->|GitHub Ready| GH["🐙 GitHub Pages<br/>Auto-deployable"]
+    
+    style MD fill:#27ae60,stroke:#333,stroke-width:2px,color:#fff
+    style HTML fill:#3498db,stroke:#333,stroke-width:2px,color:#fff
+    style JSON fill:#f39c12,stroke:#333,stroke-width:2px,color:#fff
+    style GH fill:#9b59b6,stroke:#333,stroke-width:2px,color:#fff
+```
 
-### **Example Generated Structure**
+### **📘 Markdown-Only Export** (Perfect for GitHub)
 
+```
+pbip-doc generate --input ./pbip --output ./docs --format markdown
+```
+
+Generated structure:
 ```
 docs/
-├── index.html                      (Landing page + navigation)
-├── semantic-model/
-│   ├── tables.md                   (All tables documented)
-│   ├── measures.md                 (All measures + DAX)
-│   ├── relationships.md            (Relationship definitions)
-│   └── erd.html                    (Interactive diagram)
-├── lineage/
-│   ├── full-lineage-map.html       (3D WebGL graph)
-│   ├── source-to-visual.json       (Data lineage JSON)
-│   └── impact-zones.md             (Critical paths)
-├── quality/
-│   ├── health-report.html          (ECharts dashboard)
-│   ├── complexity-analysis.md      (DAX complexity)
-│   ├── quality-metrics.json        (Linting results)
-│   └── recommendations.md          (Improvement tips)
-├── dax/
-│   ├── dependency-trees.html       (React Flow diagrams)
-│   └── functions-index.json        (All DAX functions)
-└── config.json                     (Analysis metadata)
+├── README.md                       (Overview + index)
+├── _generated_metadata.md          (Analysis timestamp & stats)
+│
+├── 📊 Semantic Model/
+│   ├── 01-tables-summary.md        (All tables overview)
+│   ├── 02-columns-detailed.md      (Column definitions)
+│   ├── 03-measures-catalog.md      (Every measure documented)
+│   ├── 04-relationships.md         (Table relationships)
+│   ├── 05-hierarchies.md           (Dimension hierarchies)
+│   └── 06-roles-security.md        (RLS & permissions)
+│
+├── 🧮 DAX Analysis/
+│   ├── 01-dax-complexity.md        (Complexity scoring)
+│   ├── 02-measure-dependencies.md  (What depends on what)
+│   ├── 03-circular-refs.md         (Circular dependency report)
+│   ├── 04-performance-tips.md      (Optimization suggestions)
+│   └── 05-dax-functions-used.md    (All DAX functions index)
+│
+├── 📈 Quality Reports/
+│   ├── 01-health-summary.md        (Overall quality score)
+│   ├── 02-orphaned-entities.md     (Unused measures/columns)
+│   ├── 03-code-smells.md           (Anti-patterns detected)
+│   ├── 04-recommendations.md       (Improvement opportunities)
+│   └── 05-metrics.md               (Raw quality metrics)
+│
+├── 📊 Visualizations/ (Mermaid diagrams for GitHub rendering)
+│   ├── erd-diagram.md              (Entity relationship diagram)
+│   ├── data-lineage.md             (Source → Visual paths)
+│   ├── measure-tree.md             (Dependency tree)
+│   └── quality-summary.md          (Health dashboard)
+│
+└── 🔗 Lineage/
+    ├── 01-sources-to-tables.md     (SQL → Tables)
+    ├── 02-tables-to-measures.md    (Tables → Measures)
+    └── 03-measures-to-visuals.md   (Measures → Visuals)
 ```
+
+### **✨ All Export Formats**
+
+<table>
+<tr>
+<td width="50%">
+
+**📘 Pure Markdown**
+- ✅ No dependencies
+- ✅ GitHub native
+- ✅ Version control friendly
+- ✅ Searchable
+- ✅ Self-contained
+
+Perfect for:
+- GitHub repos
+- Version control
+- Team collaboration
+- Documentation sites
+
+</td>
+<td width="50%">
+
+**🌐 Interactive HTML**
+- ✅ React Flow diagrams
+- ✅ ECharts dashboards  
+- ✅ 3D lineage graphs
+- ✅ Live search
+- ✅ GitHub Pages ready
+
+Perfect for:
+- Team portals
+- Executive dashboards
+- Interactive exploration
+- Public sharing
+
+</td>
+</tr>
+</table>
 
 ---
 
