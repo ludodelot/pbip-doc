@@ -364,7 +364,7 @@ MIT License. See [LICENSE](LICENSE) file for details.
 
 - **GitHub Issues**: Report bugs or request features
 - **GitHub Discussions**: Ask questions, share ideas
-- **Email**: ludovicdelot99@gmail.com
+- **Email**: contactoludovicdelot@gmail.com
 
 ---
 

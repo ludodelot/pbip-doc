@@ -1080,7 +1080,7 @@ A: Docs are generated locally, never uploaded anywhere.
 | **GitHub Issues** | [Report bugs & request features](https://github.com/ludodelot/pbip-doc/issues) |
 | **Discussions** | [Ask questions & share ideas](https://github.com/ludodelot/pbip-doc/discussions) |
 | **LinkedIn** | [Connect with the creator](https://www.linkedin.com/in/delot/) |
-| **Email** | ludovicdelot99@gmail.com |
+| **Email** | contactoludovicdelot@gmail.com |
 
 ---
 
@@ -1128,7 +1128,7 @@ This skill automates the boring part so teams can focus on building better data 
 
 **Connect:**
 - 🔗 [LinkedIn](https://www.linkedin.com/in/delot/)
-- 📧 ludovicdelot99@gmail.com
+- 📧 contactoludovicdelot@gmail.com
 - 💼 Data Architecture | BI Automation | Power BI Engineering
 
 ---
