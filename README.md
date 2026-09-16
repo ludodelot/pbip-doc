@@ -1116,10 +1116,26 @@ This skill is built for **BI Engineers** who believe:
 
 ### One command. Complete docs. Full transparency.
 
-**Made by BI Engineers, for BI Engineers**
+---
+
+## 👨‍💻 About
+
+**Created by Ludovic Delot**
+
+A BI engineer frustrated with manual Power BI documentation built this skill to solve the problem once and for all. When documentation requires 50+ files to be manually updated every time something changes, something's broken.
+
+This skill automates the boring part so teams can focus on building better data products.
+
+**Connect:**
+- 🔗 [LinkedIn](https://www.linkedin.com/in/delot/)
+- 📧 ludovicdelot99@gmail.com
+- 💼 Data Architecture | BI Automation | Power BI Engineering
+
+---
 
 ```
-Built with ❤️ • Powered by TypeScript • Secured by MIT License
+Built with ❤️ using TypeScript • Open-source MIT License
+Helping BI teams document smarter, ship faster
 ```
 
 </div>
